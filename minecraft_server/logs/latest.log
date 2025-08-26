@@ -1,0 +1,40 @@
+[02:44:56] [User Authenticator #13/INFO]: UUID of player BigWow is 09e7ce6f-8c2c-4020-8f70-fa1e7938bc7f
+[02:44:56] [Server thread/INFO]: BigWow (/156.146.63.199:8194) lost connection: Disconnected
+[02:47:40] [Server thread/INFO]:  (/156.146.63.199:21791) lost connection: Disconnected
+[03:16:08] [Server thread/INFO]:  (/156.146.63.199:8295) lost connection: Disconnected
+[04:19:53] [Server thread/INFO]: ServerSeekerV2 (/45.135.194.65:58512) lost connection: Disconnected
+[08:46:51] [Server thread/INFO]:  (/156.146.63.199:37817) lost connection: Disconnected
+[11:17:23] [User Authenticator #14/INFO]: UUID of player BigWow is 09e7ce6f-8c2c-4020-8f70-fa1e7938bc7f
+[11:17:23] [Server thread/INFO]: BigWow (/156.146.63.199:14116) lost connection: Disconnected
+[13:48:26] [Server thread/INFO]:  (/156.146.63.199:56513) lost connection: Disconnected
+[15:40:08] [User Authenticator #15/INFO]: UUID of player R3lish is da0925d9-a2ea-4f32-88cc-af1bb9b745ce
+[15:40:08] [Server thread/INFO]: R3lish[/173.23.0.140:52884] logged in with entity id 114763 at (-36.537004365262106, 135.0, 291.8617539792051)
+[15:40:08] [Server thread/INFO]: R3lish joined the game
+[15:53:27] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=209, y=94, z=272} iw{x=210, y=94, z=272}
+[15:53:27] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=209, y=94, z=272} iw{x=210, y=94, z=272}
+[15:57:25] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=245, y=98, z=217} iw{x=242, y=98, z=218}
+[15:57:25] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=245, y=98, z=217} iw{x=242, y=98, z=218}
+[16:22:27] [Server thread/INFO]: R3lish lost connection: Disconnected
+[16:22:27] [Server thread/INFO]: R3lish left the game
+[16:23:27] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[16:29:03] [Server thread/INFO]:  (/156.146.63.199:57473) lost connection: Disconnected
+[17:44:57] [User Authenticator #16/INFO]: UUID of player TheoLegEnds is 385cdedb-0192-427a-8633-c1d0bf200012
+[17:44:58] [Server thread/INFO]: TheoLegEnds (/156.146.63.199:19390) lost connection: Disconnected
+[18:04:51] [User Authenticator #17/INFO]: UUID of player R3lish is da0925d9-a2ea-4f32-88cc-af1bb9b745ce
+[18:04:52] [Server thread/INFO]: R3lish[/173.23.0.140:56250] logged in with entity id 126419 at (-33.5, 135.0, 294.5)
+[18:04:52] [Server thread/INFO]: R3lish joined the game
+[18:05:29] [Server thread/INFO]: ServerSeekerV2 (/45.135.194.65:37252) lost connection: Disconnected
+[18:10:24] [Server thread/INFO]: R3lish lost connection: Disconnected
+[18:10:24] [Server thread/INFO]: R3lish left the game
+[18:11:24] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[19:54:20] [User Authenticator #18/INFO]: UUID of player R3lish is da0925d9-a2ea-4f32-88cc-af1bb9b745ce
+[19:54:21] [Server thread/INFO]: R3lish[/173.23.0.140:57173] logged in with entity id 127577 at (59.395538682940575, 4.0, 284.7576153629706)
+[19:54:21] [Server thread/INFO]: R3lish joined the game
+[19:58:53] [Server thread/INFO]: R3lish has made the advancement [A Seedy Place]
+[20:12:46] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-14, y=109, z=259} iw{x=-14, y=109, z=256}
+[20:20:56] [Server thread/INFO]: R3lish lost connection: Disconnected
+[20:20:56] [Server thread/INFO]: R3lish left the game
+[20:21:56] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[20:34:41] [User Authenticator #19/INFO]: UUID of player blue_waffl3 is 784fd0d4-696a-4f78-b072-c8f38e98ae9a
+[20:34:42] [Server thread/INFO]: blue_waffl3 (/156.146.63.199:51096) lost connection: Disconnected
+[20:40:42] [Server thread/INFO]: Stopping server

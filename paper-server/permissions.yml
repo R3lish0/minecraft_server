@@ -1,0 +1,31 @@
+permissions:
+  morecash:
+    permissions:
+    - minecraft.command.gamemode
+    - minecraft.command.give
+    - minecraft.command.teleport
+    - minecraft.command.weather
+    - minecraft.command.time
+    - minecraft.command.difficulty
+    - minecraft.command.gamerule
+    - minecraft.command.kill
+    - minecraft.command.ban
+    - minecraft.command.ban-ip
+    - minecraft.command.pardon
+    - minecraft.command.pardon-ip
+    - minecraft.command.kick
+    - minecraft.command.stop
+    - minecraft.command.save-all
+    - minecraft.command.save-off
+    - minecraft.command.save-on
+    - minecraft.command.list
+    - minecraft.command.say
+    - minecraft.command.tell
+    - minecraft.command.me
+    - minecraft.command.help
+    - minecraft.command.op
+    - minecraft.command.deop
+    - minecraft.command.whitelist
+    - minecraft.command.plugins
+    - minecraft.command.reload
+    - elytragame.start
