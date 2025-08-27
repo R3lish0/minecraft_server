@@ -1,5 +1,11 @@
 [
   {
+    "uuid": "da0925d9-a2ea-4f32-88cc-af1bb9b745ce",
+    "name": "R3lish",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "7141101c-7cd2-4b79-86af-ac17b30a954a",
     "name": "morecash",
     "level": 4,
