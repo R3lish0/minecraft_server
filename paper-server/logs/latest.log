@@ -1,137 +1,135 @@
-[21:23:14] [ServerMain/INFO]: [bootstrap] Running Java 25 (Java HotSpot(TM) 64-Bit Server VM 25+37-LTS-3491; Oracle Corporation null) on Windows 11 10.0 (amd64)
-[21:23:14] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-60-main@29c8822 (2025-09-06T21:49:13Z) for Minecraft 1.21.8
-[21:23:14] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[21:23:14] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins\mcCraftPaper-1.0-SNAPSHOT.jar'...
-[21:23:15] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins\mcCraftPaper-1.0-SNAPSHOT.jar' in 202ms.
-[21:23:15] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
-[21:23:15] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
+[19:10:53] [ServerMain/INFO]: [bootstrap] Running Java 25 (Java HotSpot(TM) 64-Bit Server VM 25+37-LTS-3491; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[19:10:53] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-60-main@29c8822 (2025-09-06T21:49:13Z) for Minecraft 1.21.8
+[19:10:53] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[19:10:53] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins\mcCraftPaper-1.0-SNAPSHOT.jar'...
+[19:10:54] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins\mcCraftPaper-1.0-SNAPSHOT.jar' in 194ms.
+[19:10:54] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
+[19:10:54] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
  - ElytraGame (${project.version}), ExamplePlugin (1.0.0), LibsDisguises (11.0.7), MobHunt (${project.version}), WorldEdit (7.3.16+cbf4bd5), packetevents (2.9.5)
-[21:23:18] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[21:23:19] [ServerMain/INFO]: Loaded 1407 recipes
-[21:23:19] [ServerMain/INFO]: Loaded 1520 advancements
-[21:23:19] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[21:23:19] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 201.6ms
-[21:23:19] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[21:23:19] [Server thread/INFO]: Loading properties
-[21:23:19] [Server thread/INFO]: This server is running Paper version 1.21.8-60-main@29c8822 (2025-09-06T21:49:13Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
-[21:23:19] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[21:23:19] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:23:19] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:23:19] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
-[21:23:19] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[21:23:20] [Server thread/INFO]: Default game type: SURVIVAL
-[21:23:20] [Server thread/INFO]: Generating keypair
-[21:23:20] [Server thread/INFO]: Starting Minecraft server on *:25566
-[21:23:20] [Server thread/INFO]: Using default channel type
-[21:23:20] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[21:23:20] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[21:23:20] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.9.5
-[21:23:20] [Server thread/INFO]: [LibsDisguises] Loading server plugin LibsDisguises v11.0.7
-[21:23:20] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.16+cbf4bd5
-[21:23:21] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@28e990fa]
-[21:23:21] [Server thread/INFO]: [MobHunt] Loading server plugin MobHunt v${project.version}
-[21:23:21] [Server thread/INFO]: [ExamplePlugin] Loading server plugin ExamplePlugin v1.0.0
-[21:23:21] [Server thread/INFO]: [ElytraGame] Loading server plugin ElytraGame v${project.version}
-[21:23:21] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.16+cbf4bd5
-[21:23:21] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[21:23:21] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[21:23:21] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_6.PaperweightAdapter as the Bukkit adapter
-[21:23:21] [Server thread/INFO]: Preparing level "world"
-[21:23:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:23:22] [Server thread/INFO]: Preparing spawn area: 0%
-[21:23:22] [Server thread/INFO]: Time elapsed: 170 ms
-[21:23:22] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[21:23:22] [Server thread/INFO]: Preparing spawn area: 0%
-[21:23:22] [Server thread/INFO]: Time elapsed: 96 ms
-[21:23:22] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[21:23:22] [Server thread/INFO]: Preparing spawn area: 0%
-[21:23:22] [Server thread/INFO]: Time elapsed: 294 ms
-[21:23:22] [Server thread/INFO]: [packetevents] Enabling packetevents v2.9.5
-[21:23:22] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
-[21:23:22] [Server thread/INFO]: [LibsDisguises] Enabling LibsDisguises v11.0.7
-[21:23:22] [Server thread/INFO]: [LibsDisguises] File Name: LibsDisguises-11.0.7-Free.jar
-[21:23:22] [Server thread/INFO]: [LibsDisguises] Discovered nms version: (Package: {Not package relocated}) (LD: v1_21_R5) (MC: 1.21.8)
-[21:23:22] [Server thread/INFO]: [LibsDisguises] Jenkins Build: #1612
-[21:23:22] [Server thread/INFO]: [LibsDisguises] Build Date: 05/08/2025 08:25
-[21:23:22] [Server thread/INFO]: [LibsDisguises] If you own the plugin, place the premium jar downloaded from https://www.spigotmc.org/resources/libs-disguises.32453/ in plugins/LibsDisguises/
-[21:23:22] [Server thread/INFO]: [LibsDisguises] You are running the free version, commands limited to non-players and operators. (Console, Command Blocks, Admins)
-[21:23:22] [Server thread/INFO]: [LibsDisguises] Config 'TallSelfDisguises' is set to 'SCALED', LD will scale down (when possible) oversized disguises from self disguise. https://www.spigotmc.org/wiki/lib-s-disguises-faq/#tall-disguises-self-disguises
-[21:23:23] [packetevents-update-check-thread/INFO]: [packetevents] You are running the latest release of PacketEvents. Your build: (2.9.5)
-[21:23:23] [Server thread/INFO]: [com.github.retrooper.packetevents.PacketEventsAPI] Loading block mappings for V_1_21_6/19...
-[21:23:23] [Server thread/INFO]: [com.github.retrooper.packetevents.PacketEventsAPI] Finished loading block mappings for V_1_21_6/19 in 160.1249ms
-[21:23:24] [Server thread/INFO]: [LibsDisguises] Config is up to date!
-[21:23:24] [Server thread/INFO]: [MobHunt] Enabling MobHunt v${project.version}
-[21:23:24] [Server thread/INFO]: [MobHunt] Found LibsDisguises plugin!
-[21:23:24] [Server thread/INFO]: [ExamplePlugin] Enabling ExamplePlugin v1.0.0
-[21:23:24] [Server thread/INFO]: [ExamplePlugin] Hello, World!
-[21:23:24] [Server thread/INFO]: [ElytraGame] Enabling ElytraGame v${project.version}
-[21:23:24] [Server thread/INFO]: [ElytraGame] ElytraGame has been enabled!
-[21:23:24] [Server thread/INFO]: [ElytraGame] Command 'elytragame' registered!
-[21:23:24] [Server thread/INFO]: [spark] Starting background profiler...
-[21:23:24] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[21:23:24] [Server thread/INFO]: Done preparing level "world" (2.587s)
-[21:23:24] [Server thread/INFO]: Running delayed init tasks
-[21:23:24] [Server thread/INFO]: Done (11.096s)! For help, type "help"
-[21:23:24] [User Authenticator #0/INFO]: UUID of player R3lish is da0925d9-a2ea-4f32-88cc-af1bb9b745ce
-[21:23:25] [Server thread/INFO]: R3lish joined the game
-[21:23:25] [Server thread/INFO]: R3lish[/127.0.0.1:61314] logged in with entity id 169 at ([world]578.2350160641059, 129.0065694524623, 677.7967378015092)
-[21:23:30] [Server thread/INFO]: R3lish issued server command: /startshift
-[21:23:30] [Server thread/INFO]: [ExamplePlugin] Teleporting player to McDonald's entrance...
-[21:23:30] [Server thread/INFO]: [ExamplePlugin] X: 327Y: 112Z: 229
-[21:23:30] [Server thread/INFO]: [ExamplePlugin] McDonald's built at: 327, 112, 229
-[21:23:33] [Server thread/INFO]: R3lish issued server command: /endshift
-[21:23:33] [Server thread/INFO]: X: 327Y: 112Z: 229
-[21:23:33] [Server thread/INFO]: Cuboid x region at 327 to 377
-[21:23:33] [Server thread/INFO]: Committing edit session...
-[21:23:33] [Server thread/INFO]: [ExamplePlugin] McDonald's demolished at: 327, 112, 229
-[21:23:44] [Server thread/INFO]: R3lish issued server command: /startshift
-[21:23:44] [Server thread/INFO]: [ExamplePlugin] Teleporting player to McDonald's entrance...
-[21:23:44] [Server thread/INFO]: [ExamplePlugin] X: 492Y: 126Z: 309
-[21:23:44] [Server thread/INFO]: [ExamplePlugin] McDonald's built at: 492, 126, 309
-[21:23:50] [Server thread/INFO]: R3lish issued server command: /endshift
-[21:23:50] [Server thread/INFO]: X: 492Y: 126Z: 309
-[21:23:50] [Server thread/INFO]: Cuboid x region at 492 to 542
-[21:23:50] [Server thread/INFO]: Committing edit session...
-[21:23:50] [Server thread/INFO]: [ExamplePlugin] McDonald's demolished at: 492, 126, 309
-[21:23:53] [Server thread/INFO]: R3lish lost connection: Disconnected
-[21:23:53] [Server thread/INFO]: R3lish left the game
-[21:23:57] [Server thread/INFO]: Stopping server
-[21:23:57] [Server thread/INFO]: [ElytraGame] Disabling ElytraGame v${project.version}
-[21:23:57] [Server thread/INFO]: [ElytraGame] ElytraGame has been disabled!
-[21:23:57] [Server thread/INFO]: [ExamplePlugin] Disabling ExamplePlugin v1.0.0
-[21:23:57] [Server thread/INFO]: [MobHunt] Disabling MobHunt v${project.version}
-[21:23:57] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.16+cbf4bd5
-[21:23:57] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[21:23:57] [Server thread/INFO]: [LibsDisguises] Disabling LibsDisguises v11.0.7
-[21:23:57] [Server thread/INFO]: [packetevents] Disabling packetevents v2.9.5
-[21:23:57] [Server thread/INFO]: Saving players
-[21:23:57] [Server thread/INFO]: Saving worlds
-[21:23:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[21:23:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[21:23:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[21:23:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[21:23:57] [Server thread/INFO]: [ChunkHolderManager] Saved 984 block chunks, 779 entity chunks, 9 poi chunks in world 'world' in 0.43s
-[21:23:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[21:23:57] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[21:23:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[21:23:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[21:23:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[21:23:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[21:23:58] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.03s
-[21:23:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[21:23:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[21:23:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[21:23:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[21:23:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[21:23:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[21:23:58] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
-[21:23:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[21:23:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[21:23:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[21:23:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:23:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:23:58] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[21:23:58] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[21:23:58] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[21:23:58] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[21:23:58] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[19:10:56] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:10:57] [ServerMain/INFO]: Loaded 1407 recipes
+[19:10:57] [ServerMain/INFO]: Loaded 1520 advancements
+[19:10:57] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[19:10:58] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 200.0ms
+[19:10:58] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[19:10:58] [Server thread/INFO]: Loading properties
+[19:10:58] [Server thread/INFO]: This server is running Paper version 1.21.8-60-main@29c8822 (2025-09-06T21:49:13Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[19:10:58] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[19:10:58] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:10:58] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:10:58] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
+[19:10:58] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[19:10:58] [Server thread/INFO]: Default game type: SURVIVAL
+[19:10:58] [Server thread/INFO]: Generating keypair
+[19:10:58] [Server thread/INFO]: Starting Minecraft server on *:25566
+[19:10:58] [Server thread/INFO]: Using default channel type
+[19:10:58] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[19:10:58] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[19:10:59] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.9.5
+[19:10:59] [Server thread/INFO]: [LibsDisguises] Loading server plugin LibsDisguises v11.0.7
+[19:10:59] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.16+cbf4bd5
+[19:10:59] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@75596fe1]
+[19:10:59] [Server thread/INFO]: [MobHunt] Loading server plugin MobHunt v${project.version}
+[19:10:59] [Server thread/INFO]: [ExamplePlugin] Loading server plugin ExamplePlugin v1.0.0
+[19:10:59] [Server thread/INFO]: [ElytraGame] Loading server plugin ElytraGame v${project.version}
+[19:10:59] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.16+cbf4bd5
+[19:10:59] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[19:10:59] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[19:11:00] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_6.PaperweightAdapter as the Bukkit adapter
+[19:11:00] [Server thread/INFO]: Preparing level "world"
+[19:11:01] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:11:01] [Server thread/INFO]: Preparing spawn area: 0%
+[19:11:01] [Server thread/INFO]: Time elapsed: 441 ms
+[19:11:01] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:11:01] [Server thread/INFO]: Preparing spawn area: 0%
+[19:11:01] [Server thread/INFO]: Time elapsed: 65 ms
+[19:11:01] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:11:01] [Server thread/INFO]: Preparing spawn area: 0%
+[19:11:01] [Server thread/INFO]: Time elapsed: 46 ms
+[19:11:01] [Server thread/INFO]: [packetevents] Enabling packetevents v2.9.5
+[19:11:01] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[19:11:01] [Server thread/INFO]: [LibsDisguises] Enabling LibsDisguises v11.0.7
+[19:11:01] [Server thread/INFO]: [LibsDisguises] File Name: LibsDisguises-11.0.7-Free.jar
+[19:11:01] [Server thread/INFO]: [LibsDisguises] Discovered nms version: (Package: {Not package relocated}) (LD: v1_21_R5) (MC: 1.21.8)
+[19:11:01] [Server thread/INFO]: [LibsDisguises] Jenkins Build: #1612
+[19:11:01] [Server thread/INFO]: [LibsDisguises] Build Date: 05/08/2025 08:25
+[19:11:01] [Server thread/INFO]: [LibsDisguises] If you own the plugin, place the premium jar downloaded from https://www.spigotmc.org/resources/libs-disguises.32453/ in plugins/LibsDisguises/
+[19:11:01] [Server thread/INFO]: [LibsDisguises] You are running the free version, commands limited to non-players and operators. (Console, Command Blocks, Admins)
+[19:11:01] [Server thread/INFO]: [LibsDisguises] Config 'TallSelfDisguises' is set to 'SCALED', LD will scale down (when possible) oversized disguises from self disguise. https://www.spigotmc.org/wiki/lib-s-disguises-faq/#tall-disguises-self-disguises
+[19:11:01] [packetevents-update-check-thread/INFO]: [packetevents] You are running the latest release of PacketEvents. Your build: (2.9.5)
+[19:11:02] [Server thread/INFO]: [com.github.retrooper.packetevents.PacketEventsAPI] Loading block mappings for V_1_21_6/19...
+[19:11:02] [Server thread/INFO]: [com.github.retrooper.packetevents.PacketEventsAPI] Finished loading block mappings for V_1_21_6/19 in 143.0843ms
+[19:11:03] [Server thread/INFO]: [LibsDisguises] Config is up to date!
+[19:11:03] [Server thread/INFO]: [MobHunt] Enabling MobHunt v${project.version}
+[19:11:03] [Server thread/INFO]: [MobHunt] Found LibsDisguises plugin!
+[19:11:03] [Server thread/INFO]: [ExamplePlugin] Enabling ExamplePlugin v1.0.0
+[19:11:03] [Server thread/INFO]: [ExamplePlugin] Hello, World!
+[19:11:03] [Server thread/INFO]: [ElytraGame] Enabling ElytraGame v${project.version}
+[19:11:03] [Server thread/INFO]: [ElytraGame] ElytraGame has been enabled!
+[19:11:03] [Server thread/INFO]: [ElytraGame] Command 'elytragame' registered!
+[19:11:03] [Server thread/INFO]: [spark] Starting background profiler...
+[19:11:03] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[19:11:03] [Server thread/INFO]: Done preparing level "world" (2.603s)
+[19:11:03] [Server thread/INFO]: Running delayed init tasks
+[19:11:03] [Server thread/INFO]: Done (10.478s)! For help, type "help"
+[19:11:10] [User Authenticator #0/INFO]: UUID of player R3lish is da0925d9-a2ea-4f32-88cc-af1bb9b745ce
+[19:11:10] [Server thread/INFO]: R3lish joined the game
+[19:11:10] [Server thread/INFO]: R3lish[/127.0.0.1:60016] logged in with entity id 201 at ([world]4.5, 78.0, 5.5)
+[19:11:13] [Server thread/INFO]: R3lish issued server command: /startshift
+[19:11:16] [Server thread/INFO]: [ExamplePlugin] Teleporting player to McDonald's entrance...
+[19:11:16] [Server thread/INFO]: [ExamplePlugin] X: -492Y: 129Z: 266
+[19:11:16] [Server thread/INFO]: [ExamplePlugin] McDonald's built at: -492, 129, 266
+[19:11:18] [Server thread/INFO]: R3lish fell from a high place
+[19:11:21] [Server thread/INFO]: R3lish issued server command: /endshift
+[19:11:21] [Server thread/INFO]: X: -492Y: 129Z: 266
+[19:11:21] [Server thread/INFO]: Cuboid x region at -492 to -442
+[19:11:21] [Server thread/INFO]: Committing edit session...
+[19:11:21] [Server thread/INFO]: [ExamplePlugin] McDonald's demolished at: -492, 129, 266
+[19:11:24] [Server thread/INFO]: R3lish issued server command: /gamemode creative
+[19:11:24] [Server thread/INFO]: [R3lish: Set own game mode to Creative Mode]
+[19:11:27] [Server thread/INFO]: R3lish issued server command: /startshift
+[19:11:28] [Server thread/INFO]: [ExamplePlugin] Teleporting player to McDonald's entrance...
+[19:11:28] [Server thread/INFO]: [ExamplePlugin] X: -311Y: 116Z: -326
+[19:11:28] [Server thread/INFO]: [ExamplePlugin] McDonald's built at: -311, 116, -326
+[19:24:57] [Server thread/INFO]: R3lish lost connection: Disconnected
+[19:24:57] [Server thread/INFO]: R3lish left the game
+[19:27:58] [Server thread/INFO]: Stopping server
+[19:27:58] [Server thread/INFO]: [ElytraGame] Disabling ElytraGame v${project.version}
+[19:27:58] [Server thread/INFO]: [ElytraGame] ElytraGame has been disabled!
+[19:27:58] [Server thread/INFO]: [ExamplePlugin] Disabling ExamplePlugin v1.0.0
+[19:27:58] [Server thread/INFO]: [MobHunt] Disabling MobHunt v${project.version}
+[19:27:58] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.16+cbf4bd5
+[19:27:58] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[19:27:58] [Server thread/INFO]: [LibsDisguises] Disabling LibsDisguises v11.0.7
+[19:27:58] [Server thread/INFO]: [packetevents] Disabling packetevents v2.9.5
+[19:27:58] [Server thread/INFO]: Saving players
+[19:27:58] [Server thread/INFO]: Saving worlds
+[19:27:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:27:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[19:27:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[19:27:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[19:27:58] [Server thread/INFO]: [ChunkHolderManager] Saved 237 block chunks, 45 entity chunks, 0 poi chunks in world 'world' in 0.08s
+[19:27:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[19:27:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[19:27:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[19:27:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[19:27:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[19:27:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[19:27:58] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[19:27:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[19:27:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[19:27:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[19:27:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[19:27:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[19:27:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[19:27:58] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
+[19:27:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[19:27:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[19:27:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:27:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:27:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:27:58] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:27:58] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[19:27:58] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[19:27:58] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[19:27:58] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
